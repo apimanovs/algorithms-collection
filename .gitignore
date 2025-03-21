@@ -1,0 +1,40 @@
+# 🧠 Visual Studio
+.vs/
+*.user
+*.suo
+
+# 🔧 Build results
+bin/
+obj/
+
+# 🔍 Rider / JetBrains
+.idea/
+
+# 🧪 Test results
+TestResults/
+
+# 🌐 Web
+wwwroot/
+
+# 🔒 Secrets
+*.pfx
+*.key
+
+# 💥 Logs
+*.log
+
+# 🐘 NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+
+# 🔁 Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# 🧹 OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
