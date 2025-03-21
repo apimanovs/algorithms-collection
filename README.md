@@ -2,7 +2,7 @@
 
 This repository is a personal collection of algorithms implemented in C#.
 Each algorithm resides in its own self-contained project folder and includes
-simple inline tests directly in `Program.cs` for ease of use and demonstration.
+simple inline tests directly in `Program.cs` for ease of debugging and demonstration.
 
 The goal is to:
 - Learn and practice algorithm implementations
