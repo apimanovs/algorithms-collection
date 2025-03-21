@@ -1,40 +1,45 @@
-# 🧠 Visual Studio
+# Ignore Visual Studio specific files
 .vs/
-*.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# 🔧 Build results
+# Ignore build outputs
 bin/
 obj/
+*.exe
+*.dll
+*.pdb
+*.cache
 
-# 🔍 Rider / JetBrains
-.idea/
-
-# 🧪 Test results
-TestResults/
-
-# 🌐 Web
-wwwroot/
-
-# 🔒 Secrets
-*.pfx
-*.key
-
-# 💥 Logs
-*.log
-
-# 🐘 NuGet
+# Ignore NuGet packages
+packages/
 *.nupkg
-*.snupkg
-*.nuspec
+project.lock.json
 
-# 🔁 Resharper
-_ReSharper*/
-*.DotSettings.user
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
 
-# 🧹 OS
-.DS_Store
-Thumbs.db
+# Ignore Rider and JetBrains files
+.idea/
+*.sln.iml
 
-# VS Code
+# Ignore Visual Studio Code settings
 .vscode/
+
+# Ignore compiled binaries and user settings
+*.dbmdl
+*.jfm
+
+# Ignore test results
+TestResults/
+*.trx
+
+# Ignore Publish files
+publish/
+*.publishsettings
+*.pubxml
