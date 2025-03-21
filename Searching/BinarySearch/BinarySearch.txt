@@ -1,0 +1,33 @@
+﻿Algorithm: Binary Search
+Category: Searching
+Time Complexity: O(log n)
+Space Complexity: O(1)
+
+Description:
+Binary Search is an efficient algorithm for finding an element in a **sorted** array.
+It works by repeatedly dividing the search range in half.
+
+At each step:
+- Calculate the middle index of the current range
+- Compare the target with the element at mid
+- If equal, return mid
+- If target < mid, continue in left half
+- If target > mid, continue in right half
+
+This continues until the element is found or the range is empty.
+
+---
+
+🔢 Mid Index Formula:
+int mid = left + (right - left) / 2;
+
+This formula avoids integer overflow that could occur with:
+int mid = (left + right) / 2;
+
+Why?
+If left and right are large (e.g. close to Int32.MaxValue), their sum can exceed the limit of a 32-bit integer and wrap around into a negative number. This would break the search logic.
+
+✅ Safer version:
+    int mid = left + (right - left) / 2;
+
+Because (right - left) is guaranteed not to overflow — it's always within the size of the current interval.

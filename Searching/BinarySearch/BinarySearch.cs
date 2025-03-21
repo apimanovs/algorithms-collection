@@ -31,6 +31,7 @@ class Program
         Console.WriteLine(BinarySearch(testArray, 1) == 0 ? "Test 2 Passed" : "Test 2 Failed");
         Console.WriteLine(BinarySearch(testArray, 15) == 6 ? "Test 3 Passed" : "Test 3 Failed");
         Console.WriteLine(BinarySearch(testArray, 2) == -1 ? "Test 4 Passed" : "Test 4 Failed");
+        Console.ReadLine();
     }
 
     static void Main()
